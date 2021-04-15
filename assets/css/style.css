@@ -3,10 +3,47 @@ body {
     background: black;
 }
 
+.mi_nav {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: none;
+    font-size: 17px;
+}
+
+.mi_carusel {
+    z-index: 1;
+}
+
+.carousel-inner .carousel-item img {
+    height:800px;
+}
+
 .quienes_somos {
     font-size: 1.8rem;
 }
 
+hr {
+    width: 97%;
+    height: 2px;
+    background-color: rgb(6, 109, 158);
+}
+
 .contenedor_icono {
-    background: rgb(3, 106, 175);
+    background: rgb(7, 117, 151);
+}
+
+.contacto {
+    font-size: 1.8rem;
+}
+
+/* .barra_footer .iconos_footer {
+    display: flex;
+
+} */
+
+.barra_footer {
+    background-color: rgb(9, 56, 75);
+    display: flex;
+    align-items: space-bewteen;
 }
