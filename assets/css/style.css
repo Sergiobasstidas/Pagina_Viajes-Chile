@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+.quienes_somos {
+    font-size: 1.8rem;
+}
+
+.contenedor_icono {
+    background: rgb(3, 106, 175);
+}
