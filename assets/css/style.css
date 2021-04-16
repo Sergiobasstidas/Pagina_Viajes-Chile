@@ -33,13 +33,13 @@ p {
 }
 
 hr {
-    width: 80%;
+    width: 90%;
     height: 2px;
     background-color: rgb(6, 109, 158);
 }
 
 .borde {
-    width: 90%;
+    width: 85%;
 }
 
 .card {
@@ -65,10 +65,4 @@ hr {
 
 a {
     color: white;
-}
-
-@media (max-width) {
-    .barra_footer {
-        font-size: 10px;
-    }
 }
