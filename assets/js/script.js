@@ -14,3 +14,12 @@ $(document).ready(function(){
         } 
     });
     
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $("#toggle,#toggle_2,#toggle_3,#toggle_4").dblclick(function() {
+        $(this).toggle();
+    });
+
+});

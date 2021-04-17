@@ -28,6 +28,14 @@ body {
     font-size: 1.8rem;
 }
 
+.contenedor_icono {
+    background: rgb(7, 117, 151);
+}
+
+.borde {
+    width: 85%;
+}
+
 p {
     font-weight: 400;
     font-size: 13px;
@@ -39,10 +47,6 @@ hr {
     background-color: rgb(6, 109, 158);
 }
 
-.borde {
-    width: 85%;
-}
-
 .card {
     background-color: rgb(63, 147, 153);
 }
@@ -50,10 +54,6 @@ hr {
 .card img {
     width: awuto;
     height: 160px;
-}
-
-.contenedor_icono {
-    background: rgb(7, 117, 151);
 }
 
 .contacto {
@@ -66,4 +66,16 @@ hr {
 
 a {
     color: white;
+}
+
+
+@media (max-width: 320px) {
+    .carousel-inner img {
+        width: 100%;
+        max-height: 460px;
+    }
+    
+    .carousel-inner {
+        height: 460px;
+    }
 }
