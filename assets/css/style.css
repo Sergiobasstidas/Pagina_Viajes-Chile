@@ -1,44 +1,7 @@
+/* GENERAL */
 body {
     font-family: 'Montserrat', sans-serif;
     background: black;
-}
-
-
-.mi_nav {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    background: none;
-    font-size: 20px;
-}
-
-.icono_nav {
-    font-size: 25px;
-}
-
-.mi_carusel {
-    z-index: 1;
-}
-
-.carousel-inner .carousel-item img {
-    height:800px;
-}
-
-.titulos {
-    font-size: 1.8rem;
-}
-
-.contenedor_icono {
-    background: rgb(7, 117, 151);
-}
-
-.borde {
-    width: 85%;
-}
-
-p {
-    font-weight: 400;
-    font-size: 13px;
 }
 
 hr {
@@ -47,19 +10,66 @@ hr {
     background-color: rgb(6, 109, 158);
 }
 
+/* ---------------NAVBAR-----------------*/
+.mi_nav {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: none;
+    font-size: 20px;
+}
+.svg {
+    width: 40px;
+    height: 40px;
+}
+
+.icono_nav {
+    font-size: 2.18rem;
+}
+
+/*---------------CARUSEL---------------- */
+.mi_carusel {
+    z-index: 1;
+}
+
+.carousel-inner .carousel-item img {
+    height:800px;
+}
+
+/* ------------QUIENES SOMOS------------*/
+.titulos {
+    font-size: 1.8rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.borde {
+    width: 85%;
+}
+
+.contenedor_icono {
+    background: rgb(7, 117, 151);
+}
+
+/*------------------CARDS------------------ */
 .card {
     background-color: rgb(63, 147, 153);
 }
 
 .card img {
     width: awuto;
-    height: 160px;
+    height: 170px;
 }
 
+/* ----------------CONCTACTO--------------- */
 .contacto {
     font-size: 1.8rem;
 }
 
+/* -----------------FOOTER-----------------*/
 .barra_footer {
     background-color: rgb(9, 56, 75);
 }
@@ -68,8 +78,8 @@ a {
     color: white;
 }
 
-
-@media (max-width: 320px) {
+/*-----------------MEDIA ----------------*/
+@media (max-width: 992px) {
     .carousel-inner img {
         width: 100%;
         max-height: 460px;

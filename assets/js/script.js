@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // jQuery
     $("a").on('click', function(event) {
         if (this.hash !=="") {
             event.preventDefault();
@@ -13,7 +14,7 @@ $(document).ready(function(){
             });
         } 
     });
-    
+    // Bootstrap JS
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
